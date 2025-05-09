@@ -44,5 +44,5 @@ The **Library Management System** is a relational database project designed to s
 
 library-management-system/
 ├── README.md
-├── library_schema.sql       -- Full database schema
+├── answer.sql       -- Full database schema
 └── erd.png                  -- ERD diagram
