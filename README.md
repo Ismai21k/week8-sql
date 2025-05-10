@@ -70,7 +70,7 @@ The **Library Management System** is a relational database project designed to s
 
 ![Library Management ERD](./erd.png)
 
-> This ERD includes `Books`, `Authors`, `Publishers`, `Categories`, `Members`, `Loans`, `Fines`, and `Staff`.
+> This ERD includes `Books`, `Authors`, `Publishers`, `Categories`, `Members`, `Loans`.
 
 ---
 
