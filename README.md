@@ -68,7 +68,7 @@ The **Library Management System** is a relational database project designed to s
 
 ## Entity Relationship Diagram (ERD)
 
-![Library Management ERD](https://drive.google.com/uc?export=view&id=1nW8M4U4QJyE7mpJxaNGeejCzd_q4AobJ)
+![Library Management ERD](./erd.png)
 
 > This ERD includes `Books`, `Authors`, `Publishers`, `Categories`, `Members`, `Loans`, `Fines`, and `Staff`.
 
