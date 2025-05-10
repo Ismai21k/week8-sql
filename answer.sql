@@ -51,20 +51,3 @@ CREATE TABLE Loans (
     FOREIGN KEY (book_id) REFERENCES Books(book_id),
     FOREIGN KEY (member_id) REFERENCES Members(member_id)
 );
-
-Fines Table
-CREATE TABLE Fines (
-    fine_id INT PRIMARY KEY,
-    loan_id INT,
-    amount DECIMAL(10,2),
-    paid BOOLEAN DEFAULT FALSE,
-    FOREIGN KEY (loan_id) REFERENCES Loans(loan_id)
-);
-
- Staff Table
-CREATE TABLE Staff (
-    staff_id INT PRIMARY KEY,
-    name VARCHAR(100),
-    role VARCHAR(50),
-    email VARCHAR(100)
-);
